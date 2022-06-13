@@ -1,47 +1,45 @@
-const contacts = [
+const initialVideos = [
   {
     id: 1,
-    name: "Angela",
+    title: "LW inverted winger Football player eye view",
+    position: 'Forward',
+    url: "https://www.youtube.com/embed/i1iOSA4McB4"
   },
   {
     id: 2,
-    name: "Pamela",
+    title: "Footballer Left Wing-back eye view LWB",
+    position: 'Defender',
+    url: "https://www.youtube.com/embed/xiSu44ECI3o"
   },
   {
     id: 3,
-    name: "Sandra",
-  },
-  {
-    id: 4,
-    name: "Rita",
+    title: "Footballer Attacking midfielder eye view CAM",
+    position: 'Midfielder',
+    url: "https://www.youtube.com/embed/2OIeRtY8oeo"
   },
 ];
 
-const messages = [
+const initialComments = [
   {
-    id: 1,
-    type: "sent",
-    name: "Erica",
-    content: "One",
+    id: 1, 
+    videoId: 1,
+    content: "Great finishing. I need to learn his shooting techniques.",
   },
   {
-    id: 2,
-    type: "received",
-    name: "Pamela",
-    content: "Two",
+    id: 2, 
+    videoId: 2,
+    content: "Change direction fast and sharp.",
   },
   {
-    id: 3,
-    type: "sent",
-    name: "Erica",
-    content: "three four five",
+    id: 3, 
+    videoId: 3,
+    content: "Good vision. I should keep my head up when dribbling.",
   },
   {
-    id: 4,
-    type: "received",
-    name: "Pamela",
-    content: "🎺🎺🎺🎺🎺",
+    id: 4, 
+    videoId: 3,
+    content: "Check my shoulders often during the game.",
   },
 ];
 
-export { messages, contacts };
+export { initialVideos , initialComments };
