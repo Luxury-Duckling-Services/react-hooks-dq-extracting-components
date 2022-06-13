@@ -15,6 +15,7 @@ function NewCommentForm ( {videoSelected, ifShow , allComments , setAllComments 
             }
         )
         e.target.reset()
+        console.log(allComments)
     }
 
     function handleChange(e) {

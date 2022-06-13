@@ -10,7 +10,7 @@ function Comments ( {ifShow , videoSelected , allComments } ) {
                     return comment.videoId === videoSelected.id
                 }).map((comment)=>{
                     return (
-                        <li className="message received">
+                        <li key={comment.id} className="message received">
                         <div className="icon">YW</div>
                         <span className="content">{comment.content}</span>
                         </li>
